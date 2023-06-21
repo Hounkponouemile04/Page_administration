@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page de mise à jour</title>
+  <link rel="stylesheet" type="text/css" href="StyleMAJ.css">
+  
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h2>Informations</h2>
+      <ul>
+        <li><a href="acceuil.html">Ajout d'un fichier</a></li>
+        <li><a href="MAJ.html">Mise à jour d'un fichier</a></li>
+        <li><a href="Historique.html">Historique</a></li>
+      </ul>
+    </div>
+    <h2>Formulaire de mise à jour</h2>
+    <form><br>
+        <br>
+      <div class="form-group"><br> 
+        <br><br> 
+        <br><br> 
+        <br>
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date" value="2023-06-01" required>
+      </div>
+      <div class="form-group">
+        <label for="professeur">Nom du professeur :</label>
+        <input type="text" id="professeur" name="professeur" value="John Doe" required>
+      </div>
+      <div class="form-group">
+        <label for="cours">Cours :</label>
+        <input type="text" id="cours" name="cours" value="Mathématiques" required>
+      </div>
+      <div class="form-group">
+        <label for="heure">Heure :</label>
+        <input type="time" id="heure" name="heure" value="09:00" required>
+      </div>
+      <div class="form-group">
+        <label for="salle">Salle :</label>
+        <input type="text" id="salle" name="salle" value="A101" required>
+      </div>
+      <button type="submit">Mettre à jour</button>
+    </form>
+  </div>
+</body>
+</html>
